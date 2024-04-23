@@ -6,7 +6,7 @@
 /*   By: geonwkim <geonwkim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/19 14:13:45 by geonwkim          #+#    #+#             */
-/*   Updated: 2024/04/23 19:19:37 by geonwkim         ###   ########.fr       */
+/*   Updated: 2024/04/23 19:44:37 by geonwkim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,3 @@ void	ft_putchar_fd(char c, int fd)
 // 	ft_putchar_fd('a', 1);
 // 	return (0);
 // }
-
-int main (
-
-
-)
-{
-	
-	write(1,'c',1);
-}
