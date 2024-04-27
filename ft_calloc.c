@@ -33,30 +33,25 @@ void	*ft_calloc(size_t n_items, size_t size)
 	return (p);
 }
 
-int main()
-{
-    int *temp;
-	// Check if memory allocation was successful
-	// int *array = (int*)ft_calloc(0, 0);
-	// free(array);
-	int* array = (int*)calloc(0, 0);
-	free(array);
-	// int* array = (int*)ft_calloc(5, 0);
-    int	i;
-	temp = array;
-	i = 0;
-	// if (array)
-	// {
-	// 	while (i < 5)
-	// 	{
-	// 		// This should print "0 0 0 0 0 "
-	// 		printf("%d ", array[i]);
-	// 		i++;
-	// 	}
-	// 	printf("\n");
-    //     free(array);
-    // }
-	// else
-        // printf("Memory allocation failed\n");
-	return (0);
-}
+// int main()
+// {
+//     // Check if memory allocation was successful
+// 	int* array = (int*)ft_calloc(5, sizeof(int));
+//     int	i;
+
+// 	i = 0;
+// 	if (array)
+// 	{
+// 		while (i < 5)
+// 		{
+// 			// This should print "0 0 0 0 0 "
+// 			printf("%d ", array[i]);
+// 			i++;
+// 		}
+// 		printf("\n");
+//         free(array);
+//     }
+// 	else
+//         printf("Memory allocation failed\n");
+// 	return (0);
+// }

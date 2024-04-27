@@ -64,21 +64,21 @@ int	ft_atoi(const char *str)
 	return ((int)ft_strtol(str, sign));
 }
 
-int main()
-{
-    char *t_str[] = {
-        "1234",
-        "-123",
-        "   +42",
-        " ---+--+1234ab567",
-        "0",
-        "+-+-+-123",
-        "   -+2147483647",
-        " -2147483648"
-    };
-    int num_tests = sizeof(t_str) / sizeof(t_str[0]);
-    for (int i = 0; i < num_tests; i++) {
-        printf("ft_atoi(\"%s\") = %d\n", t_str[i], ft_atoi(t_str[i]));
-    }
-    return (0);
-}
+// int main()
+// {
+//     char *t_str[] = {
+//         "1234",
+//         "-123",
+//         "   +42",
+//         " ---+--+1234ab567",
+//         "0",
+//         "+-+-+-123",
+//         "   -+2147483647",
+//         " -2147483648"
+//     };
+//     int num_tests = sizeof(t_str) / sizeof(t_str[0]);
+//     for (int i = 0; i < num_tests; i++) {
+//         printf("ft_atoi(\"%s\") = %d\n", t_str[i], ft_atoi(t_str[i]));
+//     }
+//     return (0);
+// }

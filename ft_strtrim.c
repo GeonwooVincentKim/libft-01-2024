@@ -51,29 +51,29 @@ char	*ft_strtrim(char const *s1, char const *set)
 	newarray = (char *)malloc(len_s1 + 1);
 	if (!newarray)
 		return (NULL);
-	// ft_strlcpy(newarray, (char *)s1, len_s1 + 1);
+	ft_strlcpy(newarray, (char *)s1, len_s1 + 1);
 	return (newarray);
 }
 
-int main()
-{
-	const char *originalStr = "  \t\n Hello, World! \t\n  ";
-    const char *trimChars = " \n\t";
-    char *trimmedStr;
+// int main()
+// {
+// 	const char *originalStr = "  \t\n Hello, World! \t\n  ";
+//     const char *trimChars = " \n\t";
+//     char *trimmedStr;
 
-    trimmedStr = ft_strtrim("hello world", "abcdefghijklmnopqrstuvwxyz");
-    if (trimmedStr != NULL)
-	{
-        printf("Original: '%s'\n", originalStr);
-        printf("Trimmed: '%s'\n", trimmedStr);
-        free(trimmedStr);
-    }
-	else
-        printf("Failed to trim the string.\n");
-	return (0);
-}
+//     trimmedStr = ft_strtrim("hello world", "abcdefghijklmnopqrstuvwxyz");
+//     if (trimmedStr != NULL)
+// 	{
+//         printf("Original: '%s'\n", originalStr);
+//         printf("Trimmed: '%s'\n", trimmedStr);
+//         free(trimmedStr);
+//     }
+// 	else
+//         printf("Failed to trim the string.\n");
+// 	return (0);
+// }
 
 
 
-//ft_strtrim("hello world","world") == "hello "
-//ft_strtrim("hello world","world") == "he "
+// //ft_strtrim("hello world","world") == "hello "
+// //ft_strtrim("hello world","world") == "he "
